@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:link{
+    text-decoration:none;
+    color:#c4816e;
+}
+
+a:visited{
+    text-decoration: none;
+    color:#c4816e;
+}
+
+a:hover{
+    color:#AEB9BE;
+}
+
+a:active{
+    color:#AEB9BE;
+}
+
+
+p, blockquote{
+    font-size:0.9em;
+    line-height: 1.6em;
+}
+
+h1{
+    font-size:3.5em;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size:1em;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 1em;
+    margin-left:10%;
+    margin-bottom: 15%;
+    color:#d8d9d8
+}
+
+.homescreen{
+    background-image: url("../images/background1.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 2em;
+  
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.3);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 2em;
+}
+
+header{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.menu{
+    width:40px;
+}
+
+.heading{
+    margin-top:20%;
+    margin-right:25%;
+    text-align:left;
+}
+
+.heading2{
+    padding-top: 0.6em;
+    padding-bottom: 0.8em;
+    margin-right:25%
+
+}
+
+.contact-links{
+    display:flex;
+
+}
+
+.github{
+    width: 40px;
+    padding-right: 1em;
+   
+}
+
+.linkedin{
+    width:40px;
+    padding-right: 1em;
+}
+
+.email{
+    width:40px;
+    padding-right: 1em;
+}
+
+
