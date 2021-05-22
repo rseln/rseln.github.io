@@ -7,7 +7,7 @@ body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#5b8a72, #56776c);
+    background: radial-gradient(#329d9c, #56c596);
     font-family: 'Montserrat', sans-serif;
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
@@ -332,7 +332,7 @@ button:focus{
 }
 
 a.resume {
-    color: #bfcba8;
+    color: #CFF4d2;
     text-decoration: none;
     display: inline-block;
     padding: 1px;
@@ -347,7 +347,7 @@ a.resume:after {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #bfcba8;
+    background: #CFF4d2;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -389,7 +389,11 @@ ul {
     padding: 1em;
     margin-left: 10%;
     margin-bottom: 15%;
-    color: #d8d9d8;
+    color: #ffffff;
+}
+
+.heading {
+    color: #CFF4d2;
 }
 
 .overlay {
@@ -454,16 +458,16 @@ ul {
 }
 
 .github {
-    width: 40px;
-    padding-right: 1em;
+    width: 33px;
+    padding-right: 1.2em;
 }
 
 .linkedin {
-    width: 40px;
-    padding-right: 1em;
+    width: 33px;
+    padding-right: 1.2em;
 }
 
 .email {
-    width: 40px;
-    padding-right: 1em;
+    width: 33px;
+    padding-right: 1.2em;
 }
