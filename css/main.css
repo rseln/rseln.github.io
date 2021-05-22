@@ -344,7 +344,7 @@ a.resume:after {
     bottom: 0;
     content: "";
     display: block;
-    height: 2px;
+    height: 4px;
     left: 50%;
     position: absolute;
     background: #CFF4d2;
@@ -368,13 +368,14 @@ blockquote {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 4em;
     margin: 0;
     padding: 0;
+    color: #CFF4d2;
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin: 0;
     padding: 0;
 }
@@ -390,10 +391,6 @@ ul {
     margin-left: 10%;
     margin-bottom: 15%;
     color: #ffffff;
-}
-
-.heading {
-    color: #CFF4d2;
 }
 
 .overlay {
@@ -436,7 +433,7 @@ ul {
 }
 
 .heading {
-    margin-top: 20%;
+    margin-top: 14%;
     margin-right: 25%;
     text-align: left;
 }
@@ -458,16 +455,16 @@ ul {
 }
 
 .github {
-    width: 33px;
+    width: 40px;
     padding-right: 1.2em;
 }
 
 .linkedin {
-    width: 33px;
+    width: 40px;
     padding-right: 1.2em;
 }
 
 .email {
-    width: 33px;
+    width: 40px;
     padding-right: 1.2em;
 }
